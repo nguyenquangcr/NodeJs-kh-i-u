@@ -4,6 +4,7 @@
   "description": "Repo khóa học nodejs khởi đầu",
   "main": "index.js",
   "dependencies": {
+    "fs": "0.0.1-security",
     "yargs": "^17.3.1"
   },
   "devDependencies": {},

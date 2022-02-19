@@ -1,4 +1,6 @@
 const yargs = require("yargs");
+// const { addTask } = require("./task");
+const taskFunc = require("./task");
 
 //add
 yargs.command({
@@ -14,10 +16,9 @@ yargs.command({
     },
   },
   handler: function (args) {
-    console.log("add", args);
+    // addTask(args.title, args.description)
+    taskFunc.addTask(args.title, args.description);
   },
 });
 
 yargs.parse();
-
-const ty = 1;
