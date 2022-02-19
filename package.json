@@ -1,0 +1,23 @@
+{
+  "name": "node_cyber",
+  "version": "1.0.0",
+  "description": "Repo khóa học nodejs khởi đầu",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenquangcr/NodeJs-kh-i-u.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenquangcr/NodeJs-kh-i-u/issues"
+  },
+  "homepage": "https://github.com/nguyenquangcr/NodeJs-kh-i-u#readme"
+}
