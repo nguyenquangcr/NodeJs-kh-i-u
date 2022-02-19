@@ -19,3 +19,5 @@ yargs.command({
 });
 
 yargs.parse();
+
+const ty = 1;
